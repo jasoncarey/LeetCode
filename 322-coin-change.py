@@ -1,4 +1,4 @@
-# Coin Change
+Coin Change
 # ----------
 # Medium
 # Dynamic Programming
@@ -14,7 +14,7 @@ class Solution:
         # want a dp entry for every amount
         for a in range(1, amount + 1):
             
-            #using each coin, find the lowest number usage to total amount
+            # using each coin, find the lowest number usage to total amount
             for coin in coins:
                 if (a - coin >= 0):
                     dp[a] = min(dp[a], 1 + dp[a - coin])
