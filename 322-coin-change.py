@@ -1,4 +1,4 @@
-Coin Change
+# Coin Change
 # ----------
 # Medium
 # Dynamic Programming
