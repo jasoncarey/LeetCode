@@ -3,6 +3,7 @@
 # Medium
 # Array
 
+# This uses the same solution as 56. Merge Interval
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
 
